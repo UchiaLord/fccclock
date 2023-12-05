@@ -1,0 +1,57 @@
+/* PomodoroClock.css */
+
+.pomodoro-clock {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-size: 18px;
+  }
+  
+  .length-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .btn-light {
+    font-size: 18px;
+  }
+  
+  .length {
+    font-size: 24px;
+  }
+  
+  .timer-label {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .time-left {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .btn-success,
+  .btn-danger {
+    width: 100px;
+    font-size: 18px;
+  }
+  
